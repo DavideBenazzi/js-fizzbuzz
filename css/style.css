@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #191970;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-image: radial-gradient(#a8e9eb , #ede0c4);
+  padding: 1rem;
+}
+
+li {
+  width: calc(100% / 10);
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #191970;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
